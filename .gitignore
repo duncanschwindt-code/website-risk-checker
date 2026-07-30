@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Test output
+coverage/
+playwright-report/
+test-results/
+*.tsbuildinfo
+
+# Local secrets and runtime data
+.env
+.env.local
+.env.*.local
+!.env.example
+*.sqlite
+*.sqlite-journal
+*.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Certificates and keys
+*.key
+*.pem
+*.p12
+*.pfx

@@ -1,0 +1,40 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1440"
+  height="900"
+  viewBox="0 0 1440 900"
+  role="img"
+  aria-labelledby="title description"
+>
+  <title id="title">Website Risk Checker screenshot placeholder</title>
+  <desc id="description">
+    A stylized preview frame for the Website Risk Checker home and results pages.
+  </desc>
+  <rect width="1440" height="900" fill="#071a2f" />
+  <rect x="72" y="64" width="1296" height="772" rx="28" fill="#f6f2e9" />
+  <rect x="72" y="64" width="1296" height="96" rx="28" fill="#0b2c45" />
+  <circle cx="128" cy="112" r="12" fill="#cf503d" />
+  <circle cx="166" cy="112" r="12" fill="#f0bf56" />
+  <circle cx="204" cy="112" r="12" fill="#2f9b8f" />
+  <rect x="120" y="218" width="680" height="40" rx="12" fill="#0b2c45" opacity=".92" />
+  <rect x="120" y="284" width="560" height="22" rx="10" fill="#355268" opacity=".55" />
+  <rect x="120" y="324" width="620" height="22" rx="10" fill="#355268" opacity=".38" />
+  <rect x="120" y="394" width="760" height="78" rx="16" fill="#ffffff" stroke="#c8d0d5" stroke-width="4" />
+  <rect x="912" y="394" width="336" height="78" rx="16" fill="#087f75" />
+  <rect x="120" y="536" width="360" height="210" rx="20" fill="#ffffff" stroke="#d8d1c5" stroke-width="3" />
+  <rect x="516" y="536" width="360" height="210" rx="20" fill="#ffffff" stroke="#d8d1c5" stroke-width="3" />
+  <rect x="912" y="536" width="336" height="210" rx="20" fill="#fff0eb" stroke="#cf503d" stroke-width="3" />
+  <circle cx="1080" cy="640" r="64" fill="none" stroke="#cf503d" stroke-width="20" />
+  <path d="M1080 604v52" stroke="#cf503d" stroke-linecap="round" stroke-width="14" />
+  <circle cx="1080" cy="680" r="8" fill="#cf503d" />
+  <text
+    x="720"
+    y="798"
+    fill="#355268"
+    font-family="system-ui, sans-serif"
+    font-size="22"
+    text-anchor="middle"
+  >
+    Replace with approved deployment screenshots before launch
+  </text>
+</svg>

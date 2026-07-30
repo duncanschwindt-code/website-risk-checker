@@ -1,0 +1,11 @@
+{
+  "results": {
+    "url": "https://phishing-example.test/",
+    "in_database": true,
+    "verified": true,
+    "valid": true,
+    "verified_at": "2026-07-30T08:00:00+00:00",
+    "submitted_at": "2026-07-30T07:00:00+00:00",
+    "phish_id": "fixture-1"
+  }
+}

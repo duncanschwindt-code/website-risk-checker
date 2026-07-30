@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/YOUR-ORG/website-risk-checker/security/advisories/new
+    about: Report vulnerabilities privately. Do not publish exploits, secrets, or private URLs.
+  - name: Private correction request
+    url: https://YOUR-DEPLOYMENT.example/corrections
+    about: Dispute a website result privately. Do not use a public GitHub issue.

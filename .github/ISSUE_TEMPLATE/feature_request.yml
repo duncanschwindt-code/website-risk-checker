@@ -1,0 +1,36 @@
+name: Feature request
+description: Propose an educational feature with privacy, safety, and false-positive analysis.
+title: "[Feature]: "
+labels: [enhancement, needs-triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Educational problem
+      description: What user need does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Privacy, security, provider, and false-positive effects
+      description: Explain new data, network requests, retention, wording, and likely mistakes.
+    validations:
+      required: true
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Scope confirmation
+      options:
+        - label: This does not add a public accusation board or individual blacklist.
+          required: true
+        - label: This does not require active scanning, exploits, credentials, or untrusted JavaScript.
+          required: true
+        - label: I included no private, personal, or active malicious URL.
+          required: true

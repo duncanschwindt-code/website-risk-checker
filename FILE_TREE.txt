@@ -1,0 +1,158 @@
+.
+├── .dockerignore
+├── .editorconfig
+├── .env.example
+├── .github
+│   ├── CODEOWNERS
+│   ├── ISSUE_TEMPLATE
+│   │   ├── bug_report.yml
+│   │   ├── config.yml
+│   │   ├── documentation.yml
+│   │   ├── feature_request.yml
+│   │   └── provider_integration.yml
+│   ├── codeql
+│   │   └── codeql-config.yml
+│   ├── dependabot.yml
+│   ├── pull_request_template.md
+│   └── workflows
+│       ├── ci.yml
+│       ├── codeql.yml
+│       ├── dependency-review.yml
+│       └── secret-scan.yml
+├── .gitignore
+├── .prettierignore
+├── .prettierrc.json
+├── CHANGELOG.md
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── DISCLAIMER.md
+├── Dockerfile
+├── FILE_TREE.txt
+├── LICENSE
+├── PRIVACY.md
+├── README.md
+├── SCORING.md
+├── SECURITY.md
+├── TERMS.md
+├── THIRD_PARTY_NOTICES.md
+├── app
+│   ├── api
+│   │   ├── analyze
+│   │   │   └── route.ts
+│   │   ├── config
+│   │   │   └── route.ts
+│   │   ├── corrections
+│   │   │   └── reference
+│   │   │       └── route.ts
+│   │   ├── demo
+│   │   │   └── route.ts
+│   │   ├── health
+│   │   │   └── route.ts
+│   │   └── privacy
+│   │       └── delete
+│   │           └── route.ts
+│   ├── corrections
+│   │   └── page.tsx
+│   ├── demo
+│   │   └── page.tsx
+│   ├── disclaimer
+│   │   └── page.tsx
+│   ├── error.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── manifest.ts
+│   ├── methodology
+│   │   └── page.tsx
+│   ├── not-found.tsx
+│   ├── page.tsx
+│   ├── privacy
+│   │   └── page.tsx
+│   ├── results
+│   │   └── page.tsx
+│   └── terms
+│       └── page.tsx
+├── components
+│   ├── analyzer-form.tsx
+│   ├── article-shell.tsx
+│   ├── correction-form.tsx
+│   ├── demo-banner.tsx
+│   ├── demo-client.tsx
+│   ├── result-view.tsx
+│   ├── results-client.tsx
+│   ├── site-footer.tsx
+│   └── site-header.tsx
+├── config
+│   ├── provider-compliance.json
+│   ├── sample-demo.env
+│   └── scoring-rules.json
+├── docker-compose.yml
+├── docs
+│   ├── ARCHITECTURE.md
+│   ├── DEPLOYMENT.md
+│   ├── PRE_LAUNCH_CHECKLIST.md
+│   ├── PROVIDER_REVIEW.md
+│   ├── THREAT_MODEL.md
+│   └── assets
+│       └── screenshot-placeholder.svg
+├── eslint.config.mjs
+├── instrumentation.ts
+├── lib
+│   ├── analysis
+│   │   ├── analyze.ts
+│   │   ├── heuristics.ts
+│   │   └── scoring.ts
+│   ├── config.ts
+│   ├── demo.ts
+│   ├── instrumentation-node.ts
+│   ├── providers
+│   │   ├── google-safe-browsing.ts
+│   │   ├── helpers.ts
+│   │   ├── index.ts
+│   │   ├── otx.ts
+│   │   ├── phishtank.ts
+│   │   ├── provider.ts
+│   │   ├── urlhaus.ts
+│   │   └── virustotal.ts
+│   ├── security
+│   │   ├── passive-checks.ts
+│   │   ├── privacy.ts
+│   │   ├── rate-limit.ts
+│   │   ├── request.ts
+│   │   └── url-validation.ts
+│   └── types.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── patches
+│   └── minimatch@3.1.5.patch
+├── playwright.config.ts
+├── pnpm-lock.yaml
+├── pnpm-workspace.yaml
+├── postcss.config.mjs
+├── tests
+│   ├── e2e
+│   │   └── app.spec.ts
+│   ├── fixtures
+│   │   └── providers
+│   │       ├── google-match.json
+│   │       ├── google-no-match.json
+│   │       ├── otx-pulses.json
+│   │       ├── phishtank-verified.json
+│   │       ├── urlhaus-match.json
+│   │       └── virustotal-report.json
+│   ├── helpers.ts
+│   ├── integration
+│   │   ├── analyze.test.ts
+│   │   └── corrections-privacy.test.ts
+│   └── unit
+│       ├── demo.test.ts
+│       ├── passive-checks.test.ts
+│       ├── privacy.test.tsx
+│       ├── provider-orchestration.test.ts
+│       ├── providers.test.ts
+│       ├── rate-limit.test.ts
+│       ├── request-policy.test.ts
+│       ├── scoring.test.ts
+│       └── url-validation.test.ts
+├── tsconfig.json
+└── vitest.config.ts

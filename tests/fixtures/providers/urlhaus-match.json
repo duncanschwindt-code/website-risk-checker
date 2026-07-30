@@ -1,0 +1,8 @@
+{
+  "query_status": "ok",
+  "url_status": "online",
+  "threat": "malware_download",
+  "date_added": "2026-07-29 10:00:00 UTC",
+  "last_online": "2026-07-30 08:00:00 UTC",
+  "tags": ["test-fixture"]
+}

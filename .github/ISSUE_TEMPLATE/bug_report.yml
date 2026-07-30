@@ -1,0 +1,55 @@
+name: Bug report
+description: Report a reproducible application bug using only safe, reserved examples.
+title: "[Bug]: "
+labels: [bug, needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include API keys, personal information, private URLs, or active malicious links.
+        Security issues must be reported privately under SECURITY.md.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: v1.0.0 or commit SHA
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options:
+        - Demonstration mode
+        - Live mode with mocked/local providers
+        - Live deployment (redact all sensitive details)
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use reserved domains and local fixtures.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: I included no secrets, personal information, private URLs, or active malicious URLs.
+          required: true
+        - label: This is not a vulnerability report or public website-result dispute.
+          required: true

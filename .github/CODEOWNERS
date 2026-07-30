@@ -1,0 +1,7 @@
+# Replace with actual maintainer teams before enforcing required reviews.
+* @YOUR-ORG/website-risk-checker-maintainers
+
+/config/ @YOUR-ORG/website-risk-checker-maintainers
+/lib/security/ @YOUR-ORG/website-risk-checker-maintainers
+/lib/providers/ @YOUR-ORG/website-risk-checker-maintainers
+/*.md @YOUR-ORG/website-risk-checker-maintainers

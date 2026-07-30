@@ -1,0 +1,16 @@
+{
+  "data": {
+    "type": "url",
+    "id": "fixture-only",
+    "attributes": {
+      "last_analysis_date": 1785398400,
+      "last_analysis_stats": {
+        "malicious": 3,
+        "suspicious": 1,
+        "harmless": 40,
+        "undetected": 20,
+        "timeout": 0
+      }
+    }
+  }
+}

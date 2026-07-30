@@ -1,0 +1,9 @@
+{
+  "threats": [
+    {
+      "url": "https://known-threat.example/",
+      "threatTypes": ["SOCIAL_ENGINEERING"]
+    }
+  ],
+  "cacheDuration": "1800s"
+}

@@ -1,0 +1,13 @@
+name: website-risk-checker-codeql
+
+paths:
+  - app
+  - components
+  - lib
+
+paths-ignore:
+  - tests
+  - "**/*.config.*"
+
+queries:
+  - uses: security-and-quality

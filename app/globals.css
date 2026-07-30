@@ -1,0 +1,118 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #17243b;
+  --muted: #53647d;
+  --paper: #fbfaf6;
+  --surface: #ffffff;
+  --line: #dce4e8;
+  --teal: #087f7b;
+  --teal-dark: #075e5b;
+  --navy: #10243f;
+  --sky: #dff5f4;
+  --coral: #f27a62;
+  --amber: #eeaa2b;
+  --focus: #8b5cf6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 8% 2%, rgba(8, 127, 123, 0.1), transparent 26rem),
+    radial-gradient(
+      circle at 92% 12%,
+      rgba(242, 122, 98, 0.09),
+      transparent 24rem
+    ),
+    var(--paper);
+  font-family: Arial, "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+:focus-visible {
+  border-radius: 0.25rem;
+  outline: 3px solid var(--focus);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #b8e7e5;
+  color: var(--navy);
+}
+
+.display-face {
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.035em;
+}
+
+.card-shadow {
+  box-shadow:
+    0 1px 1px rgba(16, 36, 63, 0.04),
+    0 18px 55px rgba(16, 36, 63, 0.08);
+}
+
+.subtle-grid {
+  background-image:
+    linear-gradient(rgba(16, 36, 63, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(16, 36, 63, 0.045) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.progress-stripes {
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}
+
+@media print {
+  header,
+  footer,
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white;
+  }
+
+  .card-shadow {
+    box-shadow: none;
+  }
+}

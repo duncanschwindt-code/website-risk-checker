@@ -1,0 +1,60 @@
+name: Provider integration
+description: Propose a provider using current official terms and a permitted free-access path.
+title: "[Provider]: "
+labels: [provider, compliance-review]
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider name
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Official API documentation URL
+    validations:
+      required: true
+  - type: input
+    id: terms
+    attributes:
+      label: Official terms URL
+    validations:
+      required: true
+  - type: textarea
+    id: access
+    attributes:
+      label: Free-access and eligibility evidence
+      description: Include key, credit-card, trial, commercial/noncommercial, quota, and review date.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Attribution, privacy, retention, caching, and redistribution
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Lookup and submission behavior
+      description: State whether a URL is retained, shared, or made public. New submissions are out of scope.
+    validations:
+      required: true
+  - type: textarea
+    id: false_positive
+    attributes:
+      label: False-positive and freshness considerations
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I used official sources rather than a blog or tutorial.
+          required: true
+        - label: I am not proposing quota, account, authentication, or licensing evasion.
+          required: true
+        - label: I included no real key or active malicious URL.
+          required: true

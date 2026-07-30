@@ -1,0 +1,21 @@
+{
+  "pulse_info": {
+    "count": 2,
+    "pulses": [
+      {
+        "id": "fixture-pulse-1",
+        "name": "Fixture pulse",
+        "created": "2026-07-01T00:00:00Z",
+        "modified": "2026-07-29T00:00:00Z",
+        "tags": ["phishing", "educational-fixture"]
+      },
+      {
+        "id": "fixture-pulse-2",
+        "name": "Second fixture pulse",
+        "created": "2026-07-02T00:00:00Z",
+        "modified": "2026-07-28T00:00:00Z",
+        "tags": ["malware"]
+      }
+    ]
+  }
+}
