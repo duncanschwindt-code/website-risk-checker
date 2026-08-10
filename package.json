@@ -27,7 +27,7 @@
     "check": "pnpm format:check && pnpm lint && pnpm typecheck && pnpm test && pnpm build"
   },
   "dependencies": {
-    "ipaddr.js": "2.4.0",
+    "ipaddr.js": "2.5.0",
     "next": "16.2.12",
     "react": "19.2.8",
     "react-dom": "19.2.8",
